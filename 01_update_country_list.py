@@ -13,7 +13,7 @@ country_tmp = country_tmp.rename(
     columns={
     'id':'country_iso3',
     'name':'country_name',
-    'region':'region_code',
+    'region':'wb_region_code',
     'adminregion':'admin_region_code',
     'lendingType':'lending_type',
     'incomeLevel':'income_level',
@@ -27,14 +27,14 @@ region_series.head()
 
 # Convert region_series into a dataframe
 region_df = region_series.to_frame().reset_index()
-region_df = region_df.rename(columns={'index':'region_code', 'RegionName':'region_name'})
+region_df = region_df.rename(columns={'index':'wb_region_code', 'RegionName':'wb_region_name'})
 type(region_df)
 region_df.head()
 region_df.info()
 
 # Add region name to country data
-country = country_tmp.merge(region_df, how='left', left_on='region_code', right_on='region_code')
+country = country_tmp.merge(region_df, how='left', left_on='wb_region_code', right_on='wb_region_code')
 country = country.drop(columns='aggregate')
 country.head()
 # Save results as master country table
-country.to_csv('wb_data/country.csv', index=False)
+country.to_csv('wb_data/map_country_region.csv', index=False)

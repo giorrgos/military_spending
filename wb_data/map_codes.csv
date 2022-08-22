@@ -1,0 +1,8 @@
+,wb_series_code,wb_series_name,wb_indicator
+0,MS.MIL.XPND.CD,Military expenditure (current USD),milex_usd
+1,MS.MIL.XPND.GD.ZS,Military expenditure (% of GDP),milex_pct_gdp
+2,MS.MIL.XPND.ZS,Military expenditure (% of general government expenditure),milex_pct_gov_exp
+3,MS.MIL.MPRT.KD,Arms imports (SIPRI trend indicator values),arms_imports
+4,MS.MIL.XPRT.KD,Arms exports (SIPRI trend indicator values),arms_exports
+5,MS.MIL.TOTL.P1,"Armed forces personnel, total",armed_forces_total
+6,MS.MIL.TOTL.TF.ZS,Armed forces personnel (% of total labor force),armed_forces_pct_labour

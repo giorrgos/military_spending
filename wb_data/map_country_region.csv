@@ -1,4 +1,4 @@
-country_iso3,country_name,longitude,latitude,region_code,admin_region_code,lending_type,income_level,capital_city,region_name
+country_iso3,country_name,longitude,latitude,wb_region_code,admin_region_code,lending_type,income_level,capital_city,wb_region_name
 ABW,Aruba,-70.0167,12.5167,LCN,,LNX,HIC,Oranjestad,Latin America & Caribbean 
 AFG,Afghanistan,69.1761,34.5228,SAS,SAS,IDX,LIC,Kabul,South Asia
 AGO,Angola,13.242,-8.81155,SSF,SSA,IBD,LMC,Luanda,Sub-Saharan Africa 
