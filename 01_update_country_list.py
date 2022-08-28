@@ -3,14 +3,14 @@ import pandas as pd
 import wbgapi as wb
 
 # Info about the available country data
-wb.economy.info()
-wb.region.info()
+#wb.economy.info()
+#wb.region.info()
 
 # Get a dataframe with all countries (excluding aggregates)
 country_tmp = wb.economy.DataFrame(skipAggs=True).reset_index()
 country_tmp.head()
 country_tmp = country_tmp.rename(
-    columns={
+    columns={ 
     'id':'country_iso3',
     'name':'country_name',
     'region':'wb_region_code',
