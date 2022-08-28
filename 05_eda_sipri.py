@@ -1,5 +1,4 @@
 # EDA for the sipri dataset
-
 import pandas as pd
 import pandas_profiling
 import matplotlib.pyplot as plt
@@ -11,7 +10,7 @@ import plotly.express as px
 pd.set_option('display.float_format', lambda x: '%.3f' % x)
 
 # Read the data
-military_data = pd.read_csv('wb_data\military_data.csv')
+military_data = pd.read_csv('wb_data\clean_military_data.csv')
 
 # Understand the dataset
 military_data.head()
@@ -45,5 +44,4 @@ px.line(data_frame=military_data, x='year', y='milex_usd', color='country_name')
 # Pie charts for min and max year
 military_max_year = military_data[military_data.year==max(military_data.year)]
 military_min_year = military_data[military_data.year==min(military_data.year)]
-
 px.pie(data_frame=military_max_year, names='country_name', values='milex_usd')
