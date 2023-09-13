@@ -1,6 +1,6 @@
 # EDA for the sipri dataset
 import pandas as pd
-import pandas_profiling
+import ydata_profiling
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
@@ -31,10 +31,10 @@ military_data.isna().sum()
 
 
 # Profile the data with pandas_profiling 
-profile = pandas_profiling.ProfileReport(military_data)
-profile
-profile.to_notebook_iframe()
-profile.to_file('wb_data/data_profiling.html')
+#profile = ydata_profiling.ProfileReport(military_data)
+#profile
+#profile.to_notebook_iframe()
+#profile.to_file('wb_data/data_profiling.html')
 
 
 # Plotting with plotly

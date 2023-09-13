@@ -7,11 +7,12 @@ map_codes = pd.read_csv('wb_data/map_codes.csv')
 # GET the data from the World Bank
 get_wb_military = wb.data.DataFrame( 
     series = list(map_codes['wb_series_code']),
-    economy = ['CAN', 'USA'],   
+    economy = ['CAN', 'USA', 'GBR'],   
     time = range(2018, 2021),   
     numericTimeKeys = True, 
     columns='series'
     )
+
 get_wb_military.head()
 get_wb_military.info()
 

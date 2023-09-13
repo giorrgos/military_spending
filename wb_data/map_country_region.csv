@@ -1,4 +1,4 @@
-country_iso3,country_name,longitude,latitude,wb_region_code,admin_region_code,lending_type,income_level,capital_city,wb_region_name
+country_iso3,country_name,longitude,latitude,region_code_wb,admin_region_code,lending_type,income_level,capital_city,region_name_wb
 ABW,Aruba,-70.0167,12.5167,LCN,,LNX,HIC,Oranjestad,Latin America & Caribbean 
 AFG,Afghanistan,69.1761,34.5228,SAS,SAS,IDX,LIC,Kabul,South Asia
 AGO,Angola,13.242,-8.81155,SSF,SSA,IBD,LMC,Luanda,Sub-Saharan Africa 
@@ -7,7 +7,7 @@ AND,Andorra,1.5218,42.5075,ECS,,LNX,HIC,Andorra la Vella,Europe & Central Asia
 ARE,United Arab Emirates,54.3705,24.4764,MEA,,LNX,HIC,Abu Dhabi,Middle East & North Africa
 ARG,Argentina,-58.4173,-34.6118,LCN,LAC,IBD,UMC,Buenos Aires,Latin America & Caribbean 
 ARM,Armenia,44.509,40.1596,ECS,ECA,IBD,UMC,Yerevan,Europe & Central Asia
-ASM,American Samoa,-170.691,-14.2846,EAS,EAP,LNX,UMC,Pago Pago,East Asia & Pacific
+ASM,American Samoa,-170.691,-14.2846,EAS,,LNX,HIC,Pago Pago,East Asia & Pacific
 ATG,Antigua and Barbuda,-61.8456,17.1175,LCN,,IBD,HIC,Saint John's,Latin America & Caribbean 
 AUS,Australia,149.129,-35.282,EAS,,LNX,HIC,Canberra,East Asia & Pacific
 AUT,Austria,16.3798,48.2201,ECS,,LNX,HIC,Vienna,Europe & Central Asia
@@ -48,7 +48,7 @@ CUB,Cuba,-82.3667,23.1333,LCN,LAC,LNX,UMC,Havana,Latin America & Caribbean
 CUW,Curacao,,,LCN,,LNX,HIC,Willemstad,Latin America & Caribbean 
 CYM,Cayman Islands,-81.3857,19.3022,LCN,,LNX,HIC,George Town,Latin America & Caribbean 
 CYP,Cyprus,33.3736,35.1676,ECS,,LNX,HIC,Nicosia,Europe & Central Asia
-CZE,Czech Republic,14.4205,50.0878,ECS,,LNX,HIC,Prague,Europe & Central Asia
+CZE,Czechia,14.4205,50.0878,ECS,,LNX,HIC,Prague,Europe & Central Asia
 DEU,Germany,13.4115,52.5235,ECS,,LNX,HIC,Berlin,Europe & Central Asia
 DJI,Djibouti,43.1425,11.5806,MEA,MNA,IDX,LMC,Djibouti,Middle East & North Africa
 DMA,Dominica,-61.39,15.2976,LCN,LAC,IDB,UMC,Roseau,Latin America & Caribbean 
@@ -71,7 +71,7 @@ GBR,United Kingdom,-0.126236,51.5002,ECS,,LNX,HIC,London,Europe & Central Asia
 GEO,Georgia,44.793,41.71,ECS,ECA,IBD,UMC,Tbilisi,Europe & Central Asia
 GHA,Ghana,-0.20795,5.57045,SSF,SSA,IDX,LMC,Accra,Sub-Saharan Africa 
 GIB,Gibraltar,,,ECS,,LNX,HIC,,Europe & Central Asia
-GIN,Guinea,-13.7,9.51667,SSF,SSA,IDX,LIC,Conakry,Sub-Saharan Africa 
+GIN,Guinea,-13.7,9.51667,SSF,SSA,IDX,LMC,Conakry,Sub-Saharan Africa 
 GMB,"Gambia, The",-16.5885,13.4495,SSF,SSA,IDX,LIC,Banjul,Sub-Saharan Africa 
 GNB,Guinea-Bissau,-15.1804,11.8037,SSF,SSA,IDX,LIC,Bissau,Sub-Saharan Africa 
 GNQ,Equatorial Guinea,8.7741,3.7523,SSF,SSA,IBD,UMC,Malabo,Sub-Saharan Africa 
@@ -80,13 +80,13 @@ GRD,Grenada,-61.7449,12.0653,LCN,LAC,IDB,UMC,Saint George's,Latin America & Cari
 GRL,Greenland,-51.7214,64.1836,ECS,,LNX,HIC,Nuuk,Europe & Central Asia
 GTM,Guatemala,-90.5328,14.6248,LCN,LAC,IBD,UMC,Guatemala City,Latin America & Caribbean 
 GUM,Guam,144.794,13.4443,EAS,,LNX,HIC,Agana,East Asia & Pacific
-GUY,Guyana,-58.1548,6.80461,LCN,LAC,IDX,UMC,Georgetown,Latin America & Caribbean 
+GUY,Guyana,-58.1548,6.80461,LCN,,IDX,HIC,Georgetown,Latin America & Caribbean 
 HKG,"Hong Kong SAR, China",114.109,22.3964,EAS,,LNX,HIC,,East Asia & Pacific
 HND,Honduras,-87.4667,15.1333,LCN,LAC,IDX,LMC,Tegucigalpa,Latin America & Caribbean 
 HRV,Croatia,15.9614,45.8069,ECS,,IBD,HIC,Zagreb,Europe & Central Asia
 HTI,Haiti,-72.3288,18.5392,LCN,LAC,IDX,LMC,Port-au-Prince,Latin America & Caribbean 
 HUN,Hungary,19.0408,47.4984,ECS,,LNX,HIC,Budapest,Europe & Central Asia
-IDN,Indonesia,106.83,-6.19752,EAS,EAP,IBD,LMC,Jakarta,East Asia & Pacific
+IDN,Indonesia,106.83,-6.19752,EAS,EAP,IBD,UMC,Jakarta,East Asia & Pacific
 IMN,Isle of Man,-4.47928,54.1509,ECS,,LNX,HIC,Douglas,Europe & Central Asia
 IND,India,77.225,28.6353,SAS,SAS,IBD,LMC,New Delhi,South Asia
 IRL,Ireland,-6.26749,53.3441,ECS,,LNX,HIC,Dublin,Europe & Central Asia
@@ -96,7 +96,7 @@ ISL,Iceland,-21.8952,64.1353,ECS,,LNX,HIC,Reykjavik,Europe & Central Asia
 ISR,Israel,35.2035,31.7717,MEA,,LNX,HIC,,Middle East & North Africa
 ITA,Italy,12.4823,41.8955,ECS,,LNX,HIC,Rome,Europe & Central Asia
 JAM,Jamaica,-76.792,17.9927,LCN,LAC,IBD,UMC,Kingston,Latin America & Caribbean 
-JOR,Jordan,35.9263,31.9497,MEA,MNA,IBD,UMC,Amman,Middle East & North Africa
+JOR,Jordan,35.9263,31.9497,MEA,MNA,IBD,LMC,Amman,Middle East & North Africa
 JPN,Japan,139.77,35.67,EAS,,LNX,HIC,Tokyo,East Asia & Pacific
 KAZ,Kazakhstan,71.4382,51.1879,ECS,ECA,IBD,UMC,Astana,Europe & Central Asia
 KEN,Kenya,36.8126,-1.27975,SSF,SSA,IDB,LMC,Nairobi,Sub-Saharan Africa 
@@ -112,7 +112,7 @@ LBR,Liberia,-10.7957,6.30039,SSF,SSA,IDX,LIC,Monrovia,Sub-Saharan Africa
 LBY,Libya,13.1072,32.8578,MEA,MNA,IBD,UMC,Tripoli,Middle East & North Africa
 LCA,St. Lucia,-60.9832,14.0,LCN,LAC,IDB,UMC,Castries,Latin America & Caribbean 
 LIE,Liechtenstein,9.52148,47.1411,ECS,,LNX,HIC,Vaduz,Europe & Central Asia
-LKA,Sri Lanka,79.8528,6.92148,SAS,SAS,IBD,LMC,Colombo,South Asia
+LKA,Sri Lanka,79.8528,6.92148,SAS,SAS,IDX,LMC,Colombo,South Asia
 LSO,Lesotho,27.7167,-29.5208,SSF,SSA,IDX,LMC,Maseru,Sub-Saharan Africa 
 LTU,Lithuania,25.2799,54.6896,ECS,,LNX,HIC,Vilnius,Europe & Central Asia
 LUX,Luxembourg,6.1296,49.61,ECS,,LNX,HIC,Luxembourg,Europe & Central Asia
@@ -160,7 +160,7 @@ PRI,Puerto Rico,-66.0,18.23,LCN,,LNX,HIC,San Juan,Latin America & Caribbean
 PRK,"Korea, Dem. People's Rep.",125.754,39.0319,EAS,EAP,LNX,LIC,Pyongyang,East Asia & Pacific
 PRT,Portugal,-9.13552,38.7072,ECS,,LNX,HIC,Lisbon,Europe & Central Asia
 PRY,Paraguay,-57.6362,-25.3005,LCN,LAC,IBD,UMC,Asuncion,Latin America & Caribbean 
-PSE,West Bank and Gaza,,,MEA,MNA,LNX,LMC,,Middle East & North Africa
+PSE,West Bank and Gaza,,,MEA,MNA,LNX,UMC,,Middle East & North Africa
 PYF,French Polynesia,-149.57,-17.535,EAS,,LNX,HIC,Papeete,East Asia & Pacific
 QAT,Qatar,51.5082,25.2948,MEA,,LNX,HIC,Doha,Middle East & North Africa
 ROU,Romania,26.0979,44.4479,ECS,,IBD,HIC,Bucharest,Europe & Central Asia
@@ -172,7 +172,7 @@ SEN,Senegal,-17.4734,14.7247,SSF,SSA,IDX,LMC,Dakar,Sub-Saharan Africa
 SGP,Singapore,103.85,1.28941,EAS,,LNX,HIC,Singapore,East Asia & Pacific
 SLB,Solomon Islands,159.949,-9.42676,EAS,EAP,IDX,LMC,Honiara,East Asia & Pacific
 SLE,Sierra Leone,-13.2134,8.4821,SSF,SSA,IDX,LIC,Freetown,Sub-Saharan Africa 
-SLV,El Salvador,-89.2073,13.7034,LCN,LAC,IBD,LMC,San Salvador,Latin America & Caribbean 
+SLV,El Salvador,-89.2073,13.7034,LCN,LAC,IBD,UMC,San Salvador,Latin America & Caribbean 
 SMR,San Marino,12.4486,43.9322,ECS,,LNX,HIC,San Marino,Europe & Central Asia
 SOM,Somalia,45.3254,2.07515,SSF,SSA,IDX,LIC,Mogadishu,Sub-Saharan Africa 
 SRB,Serbia,20.4656,44.8024,ECS,ECA,IBD,UMC,Belgrade,Europe & Central Asia
@@ -214,5 +214,5 @@ WSM,Samoa,-171.752,-13.8314,EAS,EAP,IDX,LMC,Apia,East Asia & Pacific
 XKX,Kosovo,20.926,42.565,ECS,ECA,IDX,UMC,Pristina,Europe & Central Asia
 YEM,"Yemen, Rep.",44.2075,15.352,MEA,MNA,IDX,LIC,Sana'a,Middle East & North Africa
 ZAF,South Africa,28.1871,-25.746,SSF,SSA,IBD,UMC,Pretoria,Sub-Saharan Africa 
-ZMB,Zambia,28.2937,-15.3982,SSF,SSA,IDX,LIC,Lusaka,Sub-Saharan Africa 
+ZMB,Zambia,28.2937,-15.3982,SSF,SSA,IDX,LMC,Lusaka,Sub-Saharan Africa 
 ZWE,Zimbabwe,31.0672,-17.8312,SSF,SSA,IDB,LMC,Harare,Sub-Saharan Africa 
