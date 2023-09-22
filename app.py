@@ -14,7 +14,7 @@ max_year = df['year'].max()
 st.set_page_config(
     page_title="Military Expenditure",
     page_icon="helper\mili_spending.jpg",
-    layout="wide",
+    layout="wide"
 )
 
 
@@ -31,6 +31,7 @@ st.title("Military Expenditure Analysis")
 
 st.sidebar.multiselect("Select Year:", pd.unique(df["year"]))
 st.sidebar.multiselect("Select Country:", pd.unique(df["country_name"]))
+st.sidebar.multiselect("Select Country iso3:", pd.unique(df["country_iso3"]))
 st.sidebar.multiselect("Select Region:", pd.unique(df["region_name_wb"]))
 
 kpi_total_milex_max_year, kpi_avg_milex_gdp_pct_max_year, kpi_avg_milex_gov_exp_pct_max_year = st.columns(3)
