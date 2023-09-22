@@ -13,7 +13,7 @@ max_year = df['year'].max()
 # Dashboard config
 st.set_page_config(
     page_title="Military Expenditure",
-    page_icon="✅",
+    page_icon="helper\mili_spending.jpg",
     layout="wide",
 )
 
