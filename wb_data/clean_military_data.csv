@@ -1,10 +1,10 @@
-,country_iso3,year,milex_usd,population,country_name,region_name_wb
-0,CAN,2018,22729327580.3404,37065084.0,Canada,North America
-1,CAN,2019,22394875659.3821,37601230.0,Canada,North America
-2,CAN,2020,23281319910.5145,38007166.0,Canada,North America
-3,GBR,2018,55680228214.9866,66460344.0,United Kingdom,Europe & Central Asia
-4,GBR,2019,56856133066.0076,66836327.0,United Kingdom,Europe & Central Asia
-5,GBR,2020,60675039625.0,67081234.0,United Kingdom,Europe & Central Asia
-6,USA,2018,682491400000.0,326838199.0,United States,North America
-7,USA,2019,734344100000.0,328329953.0,United States,North America
-8,USA,2020,778397200000.0,331511512.0,United States,North America
+,country_iso3,year,milex_usd,milex_pct,milex_gov_exp_pct,population,country_name,region_name_wb
+0,CAN,2018,22729327580,1.317678106,3.240536016,37065084,Canada,North America
+1,CAN,2019,22394875659,1.284512244,3.162717438,37601230,Canada,North America
+2,CAN,2020,23082774049,1.400835686,2.646217765,38007166,Canada,North America
+3,GBR,2018,55832916405,1.939953463,5.007495794,66460344,United Kingdom,Europe & Central Asia
+4,GBR,2019,56567602041,1.9813273,5.14134675,66836327,United Kingdom,Europe & Central Asia
+5,GBR,2020,58332371795,2.15677756,4.325064877,67081234,United Kingdom,Europe & Central Asia
+6,USA,2018,6.82491E+11,3.323866404,,326838199,United States,North America
+7,USA,2019,7.34344E+11,3.43456772,,328329953,United States,North America
+8,USA,2020,7.78397E+11,3.696009828,,331511512,United States,North America

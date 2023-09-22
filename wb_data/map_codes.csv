@@ -1,3 +1,5 @@
 wb_series_code,wb_series_name,wb_indicator
 MS.MIL.XPND.CD,Military expenditure (current USD),milex_usd
+MS.MIL.XPND.GD.ZS,Military expenditure (% of GDP),milex_pct
+MS.MIL.XPND.ZS,Military expenditure (% of general government expenditure),milex_gov_exp_pct
 SP.POP.TOTL,"Population, total",population
