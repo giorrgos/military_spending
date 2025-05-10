@@ -31,8 +31,8 @@ clean_military_data = clean_military_data.merge(
     how='left', left_on='country_iso3', right_on='country_iso3'
     )
 
-clean_military_data.info()
 df = clean_military_data
+print(df.head())
 
 # Write to csv
 clean_military_data.to_csv('wb_data/clean_military_data.csv')
