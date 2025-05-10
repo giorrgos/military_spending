@@ -14,7 +14,6 @@ get_wb_military = wb.data.DataFrame(
     )
 
 get_wb_military.head()
-get_wb_military.info()
 
 get_wb_military.to_csv('wb_data/get_wb_military.csv')
 
