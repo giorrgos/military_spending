@@ -9,7 +9,7 @@ df = pd.read_csv('wb_data/clean_military_data.csv')
 # Dashboard config
 st.set_page_config(
     page_title="Military Expenditure",
-    page_icon="helper\mili_spending.jpg",
+    page_icon="helper/mili_spending.jpg",
     layout="wide"
 )
 

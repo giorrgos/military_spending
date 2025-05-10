@@ -8,13 +8,12 @@ map_codes = pd.read_csv('wb_data/map_codes.csv')
 get_wb_military = wb.data.DataFrame( 
     series = list(map_codes['wb_series_code']),
     economy = ['CAN', 'USA', 'GBR'],   
-    time = range(2018, 2021),   
+    time = range(2018, 2025),   
     numericTimeKeys = True, 
     columns='series'
     )
 
 get_wb_military.head()
-get_wb_military.info()
 
 get_wb_military.to_csv('wb_data/get_wb_military.csv')
 
